@@ -14,12 +14,16 @@ also going to be my therapy for recovering from VBA programming at work.
 # To-Dos
 
 ## Must Haves
-* Get the tweets from users
-* Get the geolocation of the tweet and if that's not available, the default
-  location of the user. If both are unavailable, we can't use the tweet.
-* Get the avatar of the user
+* <del>Get the tweets from users</del>
+* <del>Get the geolocation of the tweet and if that's not available, the default
+  location of the user. If both are unavailable, we can't use the tweet.</del>
+* <del>Get the avatar of the user</del>
 * Show them on the map
 
 ## Nice to Have
 * It would be nice to have more than tweets be the activity shown on map. One
   thing that would be cool would be commits on GitHub as another activity.
+  
+## Issues
+
+* Encodings in Location Names are not handled

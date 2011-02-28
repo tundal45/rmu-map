@@ -1,0 +1,11 @@
+<p> Your IP address is <%= @ip %></p>
+<h1>Tweets</h1>
+<% @current_timeline.each do |tweet| %>
+  <ul>
+    <li><%= image_tag tweet.profile_image, :alt => tweet.screen_name %></li>
+    <li><%= tweet.screen_name %></li>
+    <li><%= tweet.text %></li>
+    <li><%= tweet.lat %></li>
+    <li><%= tweet.long %></li>
+  </ul>
+<% end %>
